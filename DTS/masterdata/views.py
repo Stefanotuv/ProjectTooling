@@ -10,3 +10,10 @@ def masterdataview(request):
         'bodymasterdata':"Hello the message is now coming from view.py for masterdata"
     }
     return render(request,'masterdata/index.html',context=masterdata_dict)
+
+def help(request):
+# help page in the template folder
+    help_dict = {
+        'bodyhelp':"THIS IS THE HELP PAGE"
+    }
+    return render(request,'masterdata/help.html',context=help_dict)
