@@ -12,13 +12,13 @@ from masterdata.models import Application, AppType, Region
 from faker import Faker
 
 fakegen = Faker()
-regions = {'UK':'United Kingdom',
-            'US':'United States',
-            'HK':'Hong Kong',
-            'CN':'China',
-            'PL':'Poland',
-            'FR':'France',
-            'IN':'India'}
+regions = {'UK':'United Kingdom1',
+            'US':'United States1',
+            'HK':'Hong Kong1',
+            'CN':'China1',
+            'PL':'Poland1',
+            'FR':'France1',
+            'IN':'India1'}
 
 def populate_region_start():
     for key, value in regions.items():

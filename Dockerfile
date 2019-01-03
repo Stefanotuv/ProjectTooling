@@ -23,4 +23,6 @@ CMD ["python", "manage.py", "migrate"]
 
 CMD ["python", "manage.py", "createsuperuser", "stefanot", "ste.tuveri@gmail.com", "Pinocchi0", "Pinocchi0"]
 
+CMD ["python", "populateDB1.py"]
+
 CMD ["python", "manage.py",  "runserver", "0.0.0.0:8000"]
